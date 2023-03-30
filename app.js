@@ -1,8 +1,8 @@
 import express from 'express';
 
-import routes from './routes/index.js';
+import routes from './src/routes/index.js'
 
-import connect from './database/index.js';
+import connect from './src/database/index.js';
 
 connect(); // Connect to database
 
